@@ -34,7 +34,7 @@ class MessageProxyFactory {
 			// 微信
 			callback = new MessageProxy(new WeChatMessage());
 		} else if ("Email".equalsIgnoreCase(type)) {
-			// 微信
+			// 邮件
 			callback = new MessageProxy(new EmailMessage());
 		} else {
 			callback = new MessageProxy(new Message());
